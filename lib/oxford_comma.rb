@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def oxford_comma(array)
   if array.length == 1 
     return array.join
@@ -7,4 +8,9 @@ def oxford_comma(array)
     array [-1] = "and #{array[-1]}"
     return array.join (", ")
   end
+=======
+def oxford_comma(array)
+  array.join
+  
+>>>>>>> 1de65b9cd00ade88ef5617ac4874848b63275a5e
 end
